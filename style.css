@@ -1,0 +1,101 @@
+header {
+	display: flex;
+	justify-content: flex-end;
+	height: 50px;
+}
+.header {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.header:hover {
+    text-decoration: underline;
+	opacity: 0.8;
+}
+.menu {
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top:20px;
+}
+.search {
+	width: 22px;
+	height: 22px;
+	position: relative;
+	left:35px;
+	top:8px;
+}
+.microphone {
+	width: 22px;
+	height: 22px;
+	position: relative;
+	right: 35px;
+	top: 8px;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+input {
+	height: 40px;
+	border-radius: 25px;
+	border: 1px solid lightgrey;
+}
+button {
+	border-radius: 5px;
+	height: 35px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+#france, #real_footer {
+	border: 1px solid lightgrey;
+	background-color: rgb(220, 220, 220);
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: baseline;
+}
+#input_button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#button {
+	display: flex;
+	justify-content: center;
+}
+#connexion {
+	background-color: rgb(0, 123, 255);
+	border: 1px solid rgb(0, 123, 255);
+	height :35px;
+    margin-top:10px;
+}
+#connect {
+	color: white;
+}
+#applications {
+	height :35px;
+}
+a {
+	text-decoration: none;
+	color: rgb(26, 26, 26);
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin-left: 5px;
+    margin-right: 5px;
+}
