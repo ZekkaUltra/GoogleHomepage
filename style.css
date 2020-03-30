@@ -81,6 +81,7 @@ button {
 	border: 1px solid rgb(0, 123, 255);
 	height :35px;
     margin-top:10px;
+    color: white;
 }
 #connect {
 	color: white;
